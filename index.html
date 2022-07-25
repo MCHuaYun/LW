@@ -1,24 +1,23 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-  
-    <title>龙华区外国语学校</title>
-    <meta name="description"        content="这里是龙华区外国语学校--非官方网站">
-    <meta name="keywords" content="深圳市龙华区外国语学校，MC桦云">
-	<meta name="description" content="深圳市龙华区外国语学校--非官方网站">
-	<!-- <meta name=“author” content="MC桦云=2659207591@qq.com"> -->
-	<meta name=""
+
+    <title>深圳市龙华区外国语学校--非官方网站</title>
+    <meta name="description"content="LW">
+	<meta name="keywords" content="LW">
+    <link rel="icon" href="./favicon.png"> 
     <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
     <link rel="stylesheet" type="text/css" href="./css/nutssss.css">
-    <link rel="icon" href="./favicon.png">
-</div>
+    
 </head>
+
 <body>
     <div id="box">
-         <!-- 个人资料卡片 -->
+        <!-- 个人资料卡片 -->
         <div class="meBox">
             <!-- 头像 -->
             <div class="TouXiang.jpg"></div>
@@ -34,20 +33,38 @@
 
 				<br>
 				<br>
-                <p style="font-family: Bob;font-size: 20px;">你好！！</p>
+                <p style="font-family: Bob;font-size: 20px;">LONGWAI--WEBSITE</p>
                 <div class="fg"></div>
             </div>
             <div class="meBox-text">
-		    <p>这里是深圳市龙华区外国语学校--非官方网站！</p>
-            </div>
+                <p id="ymd"></p>
+                    <script>
+                        var date = new Date()<!--获得日期数据-->
+                        var y = date.getFullYear();<!--年-->
+                        var m = date.getMonth()+1;<!--月，这里的月份必须要+1才是当前月份-->
+                        var d = date.getDate(); <!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->
+                        document.getElementById("ymd").innerHTML = "今天是"+y+"年"+m+"月"+d+"日";
+                    </script>
+                    <script type="text/javascript" src="dtxt1.js"></script>				
+             <p>你好，这里是深圳市龙华区外国语学校--非官方网站！</p>
+		    <p>此网站为学生所建，如有问题，请向制作者联系，感恩戴德！</p>
+				<br>
+				<br />
+				<br>
+				</div>
             <!-- 两个按钮 -->
             <div class="meBox-Button">
+				<br>
+				<br />
+				<br>
                 <a href="https://mchuayun.vercel.app/CN/zt/zt.html">联系制作者</a>
-                <a href="./ZY/HW.html">看今日作业</a>
+                <a href="./ZY/HY.html">看暑假作业</a>
             </div>
         </div>
-<!-- 伪终端介绍 -->
-        <!-- 第一个终端 -->
+
+        <!-- 伪终端介绍 -->
+        <div id="cmdBox">
+            <!-- 第一个终端 -->
             <div class="cmd">
                 <!-- 三个按钮 -->
                 <div class="click">
@@ -60,19 +77,18 @@
                     <span>文件</span>
                 </div>
                 <!-- 终端内文字 -->
-		<div class="cmdText">
-			 <ul class="ul">
-				 <p> ！！答案用手机进入此网站需要下载文件，电脑进入此网站可在线观看！！</p>   
-				 <li> <a href="./ch/wj.pdf">语文文件</a></li>
-				 <li> <a href="./ma/wj.pdf">数学文件</a></li>
-				 <li> <a href="./en/wj.pdf">英语文件</a></li>
-				 <li> <a href="./wl/wj.pdf">物理文件</a></li>
-				 <li> <a href="./df/wj.pdf">道法文件</a></li>
-				 <li> <a href="./hi/wj.pdf">历史文件</a></li>
-		         </ul>
+                <div class="cmdText">
+			<ul class="ul">
+				<li><a href="./AN/ch/wj/html">语文文件</a></li>
+                                <li><a href="./AN/ma/wj/html">数学文件</a></li>
+                                <li><a href="./AN/en/wj/html">英语文件</a></li>
+                                <li><a href="./AN/wl/wj/html">物理文件</a></li>
+			        <li><a href="./AN/df/wj/html">道法文件</a></li>
+				<li><a href="./AN/hi/wj/html">历史文件</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-		 <!-- 第二个终端 -->
+            <!-- 第二个终端 -->
             <!--<div class="cmd cmd2">
                 <!-- 三个按钮 -->
                 <!--<div class="click">
@@ -114,10 +130,9 @@
     </div>
     <!-- 页脚 -->
     <div id="footer">
-        <p>© 2022 深圳市龙华区外国语学校 | <a href="http://szlhfls.vercel.app">深圳市龙华区外国语学校的非官方网站</a></p>
-        <p>网站托管 By <a href="https://www.github.com">Github</a></p>
-	<p> <a href="https://beian.miit.gov.cn/#/Integrated/index">京ICP备14****82号-5</a></p>
-        <p> <a href="http://www.beian.gov.cn/portal/index?token=5c20ea66-8c1b-49f4-b472-44c354b1528a">京公网安备1528******5582</a></p>
+        <p>© 2022 LW | <a href="http://mchuayun.vercel.app">深圳市龙华区外国语学校--非官方网站</a></p>
+	<p> <a href="https://beian.miit.gov.cn/#/Integrated/index">京ICP备18586195号-4</a></p>
+        <p> <a href="http://www.beian.gov.cn/portal/index?token=5c20ea66-8c1b-49f4-b472-44c354b1528a">京公网安备11005268512158</a></p>
     </div>
     <video>
 </body>
